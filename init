@@ -1,0 +1,7 @@
+!/usr/bin/env python3
+
+# pip3 install ntplib
+python3 -m venv venv
+source venv/bin/activate
+pip3 install pytest
+pytest -s -v

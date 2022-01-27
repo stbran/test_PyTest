@@ -5,5 +5,5 @@
 import urllib.request
 
 def test_ya_ru_is_on():
-    str = urllib.request.urlopen("https://ya.ru/").getcode()
-    assert str == 200, "Site ya.ru is not available"
+    site_response = urllib.request.urlopen("https://ya.ru/").getcode()
+    assert site_response == 200, "Site ya.ru is not available"
